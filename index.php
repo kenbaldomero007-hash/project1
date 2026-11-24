@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- Navigation -->
     <header>
         <h2 class="logo">My Portfolio.</h2>
         <nav>
