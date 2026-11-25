@@ -4,7 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', Arial, sans-serif;
+}
+
+html {
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 body {
@@ -193,6 +197,15 @@ nav a:hover {
     font-size: 17px;
     margin: 15px 0;
     color: #cbd5e1;
+}
+
+.contact a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */

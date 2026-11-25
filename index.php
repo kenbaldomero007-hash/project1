@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,17 +16,15 @@
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- Home Section -->
     <section id="home" class="home">
         <div class="home-content">
-            <h3>Hello! Welcome to my website</h3>
+            <h3>Hello! Welcome to my Portfolio</h3>
             <h1>I'm <span>Kenny Baldomero</span></h1>
             <h3>I'm an Aspiring Web Developer</h3>
             <p>
@@ -39,7 +40,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about">
         <h2>About <span>Me</span></h2>
         <p>
@@ -53,7 +53,6 @@
         </p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="skills">
         <h2>My Skills</h2>
 
@@ -80,7 +79,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="projects">
         <h2>My Projects</h2>
 
@@ -97,18 +95,16 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contact <span>Me</span></h2>
-        <p>Email: KennyBaldomero@gmail.com</p>
+        <p>Email: <a href="mailto:KennyBaldomero@gmail.com">KennyBaldomero@gmail.com</a></p>
         <p>Facebook: Kenny Baldomero</p>
         <p>Phone: 090910982</p>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>© 2026 Kenny</p>
-        <p>Thank you for visiting my website!</p>
+        <p>Thank you for visiting my portfolio!</p>
     </footer>
 
 </body>
