@@ -45,13 +45,11 @@
     <section id="about" class="about">
         <h2>About <span>Me</span></h2>
         <p>
-            Hi! I'm Kenny Baldomero. I am a student
-            who loves learning new things, especially
-            about computers and technology.
-
-            I enjoy exploring new ideas, developing
-            my skills, and challenging myself to
-            become a better person.
+            Hello! I'm someone who enjoys exploring technology,
+            learning how things work, and building things through code.
+            I have a passion for web development and love the process
+            of turning ideas into reality. I am always eager to learn
+            new skills, take on challenges, and grow as a developer.
         </p>
     </section>
 
