@@ -26,11 +26,13 @@
         <div class="home-content">
             <h3>Hello! Welcome to my Portfolio</h3>
             <h1>I'm <span>Kenny Baldomero</span></h1>
-            <h3>I'm an Aspiring Web Developer</h3>
             <p>
-                Welcome to my personal portfolio!
-                This website showcases my background,
-                skills, interests, and projects.
+                I am an aspiring software developer with an interest in web
+                development and software engineering. I enjoy learning new
+                technologies, building projects, and turning ideas into
+                functional systems. My goal is to develop applications that
+                are practical, efficient, and user-friendly while
+                continuously growing my technical skills.
             </p>
             <a href="#about" class="btn">About Me</a>
         </div>
