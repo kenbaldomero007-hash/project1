@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +11,8 @@ html {
 }
 
 body {
-    background: #0b1120;
-    color: #ffffff;
+    background: #f3f4f6;
+    color: #5cb9ff;
 }
 
 /* Navigation */
@@ -23,22 +22,27 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 8%;
-    background: rgba(11, 17, 32, 0.95);
+    background: rgba(243, 244, 246, 0.96);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
 }
 
 .logo {
     font-size: 25px;
     font-weight: bold;
-    color: #00d4ff;
+    color: #38c3ff;
+}
+
+.logo a {
+    color: #38bdf8;
+    text-decoration: none;
 }
 
 nav a {
-    color: white;
+    color: #59a5e0;
     text-decoration: none;
     margin-left: 25px;
     font-size: 15px;
@@ -46,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #00d4ff;
+    color: #0284c7;
 }
 
 /* Home Section */
@@ -66,31 +70,33 @@ nav a:hover {
 .home-content h3 {
     font-size: 23px;
     margin-bottom: 15px;
+    color: #0284c7;
 }
 
 .home-content h1 {
     font-size: 45px;
     margin-bottom: 15px;
+    color: #0284c7;
 }
 
 .home-content h1 span,
 .about h2 span,
 .contact h2 span {
-    color: #00d4ff;
+    color: #0284c7;
 }
 
 .home-content p {
     font-size: 16px;
     line-height: 1.8;
     margin: 20px 0 30px;
-    color: #cbd5e1;
+    color: #60a6d9;
 }
 
 .btn {
     display: inline-block;
     padding: 12px 30px;
-    background: #00d4ff;
-    color: #0b1120;
+    background: #0284c7;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
@@ -98,8 +104,9 @@ nav a:hover {
 }
 
 .btn:hover {
-    background: white;
-    box-shadow: 0 0 20px #00d4ff;
+    background: #38bdf8;
+    color: #0284c7;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
     transform: scale(1.05);
 }
 
@@ -109,15 +116,15 @@ nav a:hover {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #00d4ff;
-    box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+    border: 5px solid #38bdf8;
+    box-shadow: 0 0 30px rgba(32, 144, 192, 0.45);
 }
 
 /* About Section */
 .about {
     padding: 100px 10%;
     text-align: center;
-    background: #111c30;
+    background: #e5e7eb;
 }
 
 .about h2,
@@ -126,7 +133,7 @@ nav a:hover {
 .contact h2 {
     font-size: 35px;
     margin-bottom: 30px;
-    color: #00d4ff;
+    color: #0284c7;
 }
 
 .about p {
@@ -134,7 +141,16 @@ nav a:hover {
     margin: auto;
     font-size: 17px;
     line-height: 2;
-    color: #cbd5e1;
+    color: #0284c7;
+}
+
+.about.standalone {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10% 40px;
 }
 
 /* Skills Section */
@@ -150,41 +166,67 @@ nav a:hover {
 }
 
 .box {
-    background: #16243a;
+    background: #ffffff;
     padding: 30px 20px;
     border-radius: 15px;
-    border: 1px solid #263c57;
+    border: 1px solid #d1d5db;
     transition: 0.3s;
 }
 
 .box h3 {
-    color: #00d4ff;
+    color: #0284c7;
     font-size: 21px;
     margin-bottom: 15px;
 }
 
 .box p {
-    color: #cbd5e1;
+    color: #31536b;
     line-height: 1.6;
 }
 
 .box:hover {
     transform: translateY(-10px);
-    border-color: #00d4ff;
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+    border-color: #38bdf8;
+    box-shadow: 0 0 20px rgba(158, 213, 237, 0.25);
+}
+
+.skills.standalone {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.skills.standalone .btn {
+    margin-top: 40px;
+    align-self: center;
 }
 
 /* Projects Section */
 .projects {
     padding: 100px 10%;
     text-align: center;
-    background: #111c30;
+    background: #e5e7eb;
 }
 
 .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+}
+
+.projects.standalone {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.projects.standalone .btn {
+    margin-top: 40px;
+    align-self: center;
 }
 
 /* Contact Section */
@@ -196,11 +238,11 @@ nav a:hover {
 .contact p {
     font-size: 17px;
     margin: 15px 0;
-    color: #cbd5e1;
+    color: #31536b;
 }
 
 .contact a {
-    color: #00d4ff;
+    color: #0284c7;
     text-decoration: none;
 }
 
@@ -210,10 +252,10 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background: #050a14;
+    background: #d1d5db;
     padding: 25px;
     text-align: center;
-    color: #94a3b8;
+    color: #8fbad9;
     line-height: 1.8;
 }
 
